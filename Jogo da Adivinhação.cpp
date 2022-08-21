@@ -20,7 +20,6 @@ int rodando (int niveis){
 				for(int tentativa = 1; tentativa <= 7; tentativa++){
 					printf("Essa eh sua tentativa de numero %d\n", tentativa);
 					scanf("%d", &chute);
-				    on++;
 				    
 				if(chute < numeroSecreto){
 					printf("Seu chute foi menor que o numero secreto\n");
